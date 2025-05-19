@@ -1,0 +1,27 @@
+{
+  "name": "sprint-2-dop-1",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "home": "https://IrynaS1.github.io/sprint-2-dop-1",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+	 "deploy" : "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "uuid": "11.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
+    "@vitejs/plugin-react": "4.3.4",
+    "gh-pages": "^6.3.0",
+    "globals": "15.15.0",
+    "typescript": "5.7.2",
+    "vite": "6.2.0"
+  }
+}
